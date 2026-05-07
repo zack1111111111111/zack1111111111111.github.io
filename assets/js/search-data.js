@@ -461,11 +461,6 @@ ninja.data = [{
           description: "An AI-powered AR postpartum recovery coach that uses EMG biosignals and real-time feedback to help mothers safely rebuild core strength.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_rebloom/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
             },},{id: "projects-puntech",
           title: 'Puntech',
           description: "AI-powered VR boxing training partner with flexible impact sensors.",
@@ -476,56 +471,26 @@ ninja.data = [{
           description: "Intelligent boxing helmet with real-time punch detection and live AI sportscaster commentary.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_accubox/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
             },},{id: "projects-heartup",
           title: 'Heartup',
           description: "Wearable cardiac sensing platform for continuous, ambient heart-health monitoring.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_heartup/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
             },},{id: "projects-heartstrokesaver",
           title: 'HeartStrokeSaver',
           description: "Real-time CPR monitoring system with an AI voice assistant that evaluates compression quality during resuscitation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_heartstrokesaver/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
             },},{id: "projects-claudiac",
           title: 'Claudiac',
           description: "An AI-powered platform that turns real-time heartbeat data into emotional connection for remote loved ones.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_claudiac/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
             },},{id: "projects-ecag2",
           title: 'ECAG2',
           description: "A multi-agent AI framework for ECG interpretation across diverse cardiac scenarios.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_ecag2/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
             },},{id: "projects-wetropia",
           title: 'WeTropia',
           description: "An AI agent platform for personalized everyday well-being.",
@@ -536,16 +501,6 @@ ninja.data = [{
           description: "An AI-powered dashcam assistant that helps non-English-speaking drivers handle accidents through multilingual voice guidance, automated reporting, and insurance claim support.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_claimpilot/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{id: "projects-yogoddess",
           title: 'Yogoddess',
           description: "An AI-powered smart yoga assistant using biosignal sensors to monitor focus, muscle activity, and stress for safer, more mindful practice.",
