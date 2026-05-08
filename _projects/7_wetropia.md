@@ -6,6 +6,10 @@ img: assets/img/projects/wetropia.jpg
 importance: 1
 category: AI Agent
 related_publications: false
+github:
+youtube:
+devpost:
+website:
 ---
 
 ## Motivation
@@ -15,6 +19,19 @@ People don't lack information about how to live better — they lack a patient, 
 ## How it works
 
 WeTropia is built as a multi-agent system in which specialized agents handle different domains of daily life — sleep, movement, focus, recovery, social presence — and a coordinator agent decides what is worth surfacing, when, and in what tone. The platform integrates with biosignal and behavioral data sources, reasons across them, and delivers personalized interventions through a conversational interface designed to feel like a thoughtful friend rather than a productivity tool.
+
+{% if page.youtube or page.devpost or page.github or page.website %}
+
+## Links
+
+<div class="project-links">
+{% if page.youtube %}<a class="btn btn-sm btn-outline-danger" href="{{ page.youtube }}" target="_blank" rel="noopener">▶ Watch on YouTube</a>{% endif %}
+{% if page.devpost %}<a class="btn btn-sm btn-outline-info" href="{{ page.devpost }}" target="_blank" rel="noopener">View on Devpost</a>{% endif %}
+{% if page.github %}<a class="btn btn-sm btn-outline-dark" href="{{ page.github }}" target="_blank" rel="noopener">GitHub Repository</a>{% endif %}
+{% if page.website %}<a class="btn btn-sm btn-outline-success" href="{{ page.website }}" target="_blank" rel="noopener">🌐 Live Demo</a>{% endif %}
+</div>
+
+{% endif %}
 
 ## Demo
 
