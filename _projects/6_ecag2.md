@@ -6,7 +6,7 @@ img: assets/img/projects/ecag2.jpg
 importance: 4
 category: Cardiac Monitoring
 related_publications: false
-github: https://github.com/zack1111111111111/ECAG2
+github: https://github.com/zackkjiang/ECAG2
 youtube:
 devpost:
 website: https://ecag2.netlify.app/
